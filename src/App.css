@@ -130,6 +130,14 @@ nav .nav-link {
   font-weight: bold;
   letter-spacing: 1.3px;
   font-size: 1.5rem;
+  padding: 0px 20px;
+}
+.searchForm .searchBody .p {
+  margin-top: 30px;
+  font-weight: bold;
+}
+.searchForm .searchBody img {
+  margin-top: 20px;
 }
 .searchForm input[type="text"] {
   width: 70%;
@@ -159,10 +167,11 @@ nav .nav-link {
 }
 
 .searchForm .content {
-  margin-top: 10px;
+  margin-top: 30px;
   text-align: center;
   width: 100%;
   max-width: 500px;
+  padding: 0px 40px;
 }
 
 .searchForm .content h3 {
