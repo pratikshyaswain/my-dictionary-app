@@ -6,6 +6,7 @@
 html,
 body {
   font-family: sans-serif;
+  overflow-x: hidden;
 }
 .HomeBody {
   width: 100%;
@@ -130,7 +131,7 @@ nav .nav-link {
   font-weight: bold;
   letter-spacing: 1.3px;
   font-size: 1.5rem;
-  padding: 0px 20px;
+  padding: 0px 40px;
 }
 .searchForm .searchBody .p {
   margin-top: 30px;
@@ -139,9 +140,9 @@ nav .nav-link {
 .searchForm .searchBody img {
   margin-top: 20px;
 }
-.searchForm input[type="text"] {
+.searchForm input {
   width: 70%;
-  padding: 9px 10px;
+  padding: 9px 20px;
   margin-bottom: 10px;
   border: 1.5px solid black;
   border-radius: 10px;
@@ -168,10 +169,11 @@ nav .nav-link {
 
 .searchForm .content {
   margin-top: 30px;
+  margin-bottom: 40px;
   text-align: center;
   width: 100%;
   max-width: 500px;
-  padding: 0px 40px;
+  /* padding: 0px 70px; */
 }
 
 .searchForm .content h3 {
@@ -191,6 +193,7 @@ nav .nav-link {
 .searchForm .content b {
   font-weight: bold;
   color: black;
+  /* padding: 0px 20px; */
 }
 
 .searchForm .content a {
